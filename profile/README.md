@@ -15,3 +15,9 @@ Si amas la programación y quieres potenciar tus habilidades en Rust, ¡te damos
 #### ¿Cómo sumarte? 📖
 
 Si quieres sumarte al grupo, puedes encontrarnos en nuestro servidor de [discord](https://discord.gg/4ng5HgmaMg)!
+
+<div align="center">
+
+[![Discord](https://img.shields.io/discord/778674594856960012?color=blue&label=discord&logo=discord)](https://discord.gg/4ng5HgmaMg)
+
+</div>
