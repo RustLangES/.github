@@ -8,10 +8,11 @@ const baseDir = path.dirname(scriptsDir)
 
 const conf = {
   repo: {
-    base: "RustLangES/RustLangES",
+    base: "RustLangES/.github",
     branch: "main",
   },
   imgDir: "assets",
+  outReadme: "profile/",
   api: "https://github-readme-stats-eight-topaz-65.vercel.app/api",
   styles: {
     light: {},
@@ -27,7 +28,10 @@ const conf = {
 const data = [
   {
       kind: "plain",
-      content: `## Hola, somos RustLang en Español 👋
+      content: `<!--
+  This README project is inspired from https://github.com/b0o/b0o
+-->
+## Hola, somos RustLang en Español 👋
 
 Somos una comunidad de Rust hispana, buscamos la promoción del lenguaje de programación Rust.
 
@@ -142,7 +146,8 @@ function renderRepoCard({ user, repo, description, style }) {
   const search = new URLSearchParams({
     username: user,
     repo,
-    show_owner: true,
+    description,
+    show_owner: false,
     ...conf.styles[style],
   })
   return [
@@ -216,4 +221,4 @@ for (const [key, url] of imgCache.entries()) {
 }
 
 console.log(`Writing README.md`)
-await fs.writeFile(path.join(baseDir, "README.md"), content)
+await fs.writeFile(path.join(baseDir, `${conf.outReadme}README.md`), content)
