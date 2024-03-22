@@ -221,4 +221,6 @@ for (const [key, url] of imgCache.entries()) {
 }
 
 console.log(`Writing README.md`)
+const outPath = path.join(baseDir, conf.outReadme)
+await fs.mkdir(outPath, { recursive: true })
 await fs.writeFile(path.join(baseDir, `${conf.outReadme}README.md`), content)
