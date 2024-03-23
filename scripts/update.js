@@ -112,7 +112,7 @@ Si amas la programación y quieres potenciar tus habilidades en Rust, ¡te damos
                 kind: "repo",
                 user: "RustLangES",
                 repo: "mdbook-killer",
-                description: "Nuestra propia implementacion de mdbook para publicar libros",
+                description: "Implementacion propia de mdbook para publicar libros",
             },
             {
                 kind: "repo",
