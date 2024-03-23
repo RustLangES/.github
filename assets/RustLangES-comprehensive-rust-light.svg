@@ -1,8 +1,8 @@
 
       <svg
         width="400"
-        height="140"
-        viewBox="0 0 400 140"
+        height="120"
+        viewBox="0 0 400 120"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #2f80ed;
+            fill: undefined;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -21,32 +21,32 @@
             .header { font-size: 15.5px; }
           }
           
-    .description { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
-    .gray { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
-    .icon { fill: #586069 }
+    .description { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: undefined }
+    .gray { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: undefined }
+    .icon { fill: undefined }
     .badge { font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; }
     .badge rect { opacity: 0.2 }
   
 
           
-    /* Animations */
-    @keyframes scaleInAnimation {
-      from {
-        transform: translate(-5px, 5px) scale(0);
+      /* Animations */
+      @keyframes scaleInAnimation {
+        from {
+          transform: translate(-5px, 5px) scale(0);
+        }
+        to {
+          transform: translate(-5px, 5px) scale(1);
+        }
       }
-      to {
-        transform: translate(-5px, 5px) scale(1);
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
       }
-    }
-    @keyframes fadeInAnimation {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-  
+    
           * { animation-duration: 0s !important; animation-delay: 0s !important; }
         </style>
 
@@ -58,9 +58,9 @@
           y="0.5"
           rx="4.5"
           height="99%"
-          stroke="#e4e2e2"
+          stroke="undefined"
           width="399"
-          fill="#fffefe"
+          fill="undefined"
           stroke-opacity="1"
         />
 
@@ -100,16 +100,16 @@
     
 
     <text class="description" x="25" y="-5">
-      <tspan dy="1.2em" x="25">This is the Rust course used by the Android team at Google.</tspan><tspan dy="1.2em" x="25">It provides you the material to quickly teach Rust.</tspan>
+      <tspan dy="1.2em" x="25">Curso de Rust usado por el equipo de Android en Google</tspan>
     </text>
 
-    <g transform="translate(30, 65)">
+    <g transform="translate(30, 45)">
       <g transform="translate(0, 0)">
-  <g data-testid="primary-lang">
-    <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#dea584" />
-    <text data-testid="lang-name" class="gray" x="15">Rust</text>
-  </g>
-  </g>
+    <g data-testid="primary-lang">
+      <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#333" />
+      <text data-testid="lang-name" class="gray" x="15">Unspecified</text>
+    </g>
+    </g>
     </g>
   
         </g>
