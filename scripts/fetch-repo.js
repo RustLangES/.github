@@ -1,5 +1,5 @@
 import fetch from "node-fetch"
-import langsColor from "./langColors.json" with { "type": "json" }
+import langsColor from "./langColors.json" assert { "type": "json" }
 import { env } from "process";
 
 const GH_TOKEN = env.GH_TOKEN;
