@@ -23,7 +23,7 @@
           
     .description { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #adbac7 }
     .gray { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #adbac7 }
-    .icon { fill: #undefined }
+    .icon { fill: #0579C3 }
     .badge { font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; }
     .badge rect { opacity: 0.2 }
   
@@ -104,7 +104,12 @@
     </text>
 
     <g transform="translate(30, 45)">
-      <g transform="translate(0, 0)"><g transform="translate(0, 0)">
+      <g transform="translate(0, 0)">
+    <g data-testid="primary-lang">
+      <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#2f80ed" />
+      <text data-testid="lang-name" class="gray" x="15">Unspecified</text>
+    </g>
+    </g><g transform="translate(87.58749999999999, 0)"><g transform="translate(0, 0)">
       <svg
         class="icon"
         y="-12"

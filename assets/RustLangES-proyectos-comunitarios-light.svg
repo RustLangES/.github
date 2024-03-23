@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #undefined;
+            fill: #2f80ed;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -21,9 +21,9 @@
             .header { font-size: 15.5px; }
           }
           
-    .description { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #undefined }
-    .gray { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #undefined }
-    .icon { fill: #undefined }
+    .description { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
+    .gray { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
+    .icon { fill: #4c71f2 }
     .badge { font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; }
     .badge rect { opacity: 0.2 }
   
@@ -58,9 +58,9 @@
           y="0.5"
           rx="4.5"
           height="99%"
-          stroke="#undefined"
+          stroke="#e4e2e2"
           width="399"
-          fill="#undefined"
+          fill="#00000000"
           stroke-opacity="1"
         />
 
@@ -104,7 +104,12 @@
     </text>
 
     <g transform="translate(30, 45)">
-      <g transform="translate(0, 0)"><g transform="translate(0, 0)">
+      <g transform="translate(0, 0)">
+    <g data-testid="primary-lang">
+      <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#2f80ed" />
+      <text data-testid="lang-name" class="gray" x="15">Unspecified</text>
+    </g>
+    </g><g transform="translate(87.58749999999999, 0)"><g transform="translate(0, 0)">
       <svg
         class="icon"
         y="-12"
