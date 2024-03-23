@@ -20,7 +20,10 @@ jobs:
           cache: "npm"
 
       - run: npm ci
-      - run: npm run update-readme
+      - name: Generate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run update-readme
 
       - name: Commit and Push Changes
         uses: EndBug/add-and-commit@v7
