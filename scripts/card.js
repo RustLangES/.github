@@ -159,7 +159,7 @@ class Card {
         <defs>
           <linearGradient
             id="gradient"
-            gradientTransform="rotate(${this.colors.bgColor[0]})"
+            gradientTransform="rotate(#${this.colors.bgColor[0]})"
             gradientUnits="userSpaceOnUse"
           >
             ${gradients.map((grad, index) => {
@@ -219,7 +219,7 @@ class Card {
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: ${this.colors.titleColor};
+            fill: #${this.colors.titleColor};
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -243,11 +243,11 @@ class Card {
           y="0.5"
           rx="${this.border_radius}"
           height="99%"
-          stroke="${this.colors.borderColor}"
+          stroke="#${this.colors.borderColor}"
           width="${this.width - 1}"
           fill="${typeof this.colors.bgColor === "object"
                 ? "url(#gradient)"
-                : this.colors.bgColor
+                : `#${this.colors.bgColor}`
             }"
           stroke-opacity="${this.hideBorder ? 0 : 1}"
         />

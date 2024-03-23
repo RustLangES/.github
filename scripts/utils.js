@@ -27,7 +27,7 @@ export const clampValue = (number, min, max) => {
 export const createLanguageNode = (langName, langColor) => {
     return `
     <g data-testid="primary-lang">
-      <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="${langColor}" />
+      <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#${langColor}" />
       <text data-testid="lang-name" class="gray" x="15">${langName}</text>
     </g>
     `;

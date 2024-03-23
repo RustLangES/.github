@@ -26,13 +26,13 @@ const DESCRIPTION_MAX_LINES = 3;
  */
 const getBadgeSVG = (label, textColor) => `
   <g data-testid="badge" class="badge" transform="translate(320, -18)">
-    <rect stroke="${textColor}" stroke-width="1" width="70" height="20" x="-12" y="-14" ry="10" rx="10"></rect>
+    <rect stroke="#${textColor}" stroke-width="1" width="70" height="20" x="-12" y="-14" ry="10" rx="10"></rect>
     <text
       x="23" y="-5"
       alignment-baseline="central"
       dominant-baseline="central"
       text-anchor="middle"
-      fill="${textColor}"
+      fill="#${textColor}"
     >
       ${label}
     </text>
@@ -130,9 +130,9 @@ const renderRepoCard = (repo, options = {}) => {
     card.setHideBorder(hide_border);
     card.setHideTitle(false);
     card.setCSS(`
-    .description { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${textColor} }
-    .gray { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${textColor} }
-    .icon { fill: ${iconColor} }
+    .description { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #${textColor} }
+    .gray { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #${textColor} }
+    .icon { fill: #${iconColor} }
     .badge { font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; }
     .badge rect { opacity: 0.2 }
   `);

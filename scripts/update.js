@@ -13,7 +13,7 @@ const conf = {
         branch: "main",
     },
     imgDir: "assets",
-    outReadme: "profile/",
+    outReadme: "profile",
     api: "https://github-readme-stats-eight-topaz-65.vercel.app/api",
     styles: {
         light: {
@@ -227,4 +227,4 @@ for (const [key, data] of imgCache.entries()) {
 }
 
 console.log(`Writing README.md`)
-await fs.writeFile(path.join(baseDir, `${conf.outReadme}README.md`), content)
+await fs.writeFile(path.join(baseDir, conf.outReadme, "README.md"), content)
