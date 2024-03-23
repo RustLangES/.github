@@ -9,6 +9,7 @@
     "license": "ISC",
     "devDependencies": {
         "node-fetch": "^3.3.2",
-        "typescript": "^5.2.2"
+        "emoji-name-map": "^1.2.8",
+        "word-wrap": "^1.2.5"
     }
 }
