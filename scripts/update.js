@@ -18,10 +18,10 @@ const conf = {
     styles: {
         light: {},
         dark: {
-            title_color: "58a6ff",
-            text_color: "adbac7",
-            bg_color: "00000000",
-            border_color: "444c56",
+            titleColor: "58a6ff",
+            textColor: "adbac7",
+            bgColor: "00000000",
+            borderColor: "444c56",
         },
     },
 }
