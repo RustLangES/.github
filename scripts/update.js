@@ -18,14 +18,14 @@ const conf = {
     styles: {
         light: {
             titleColor: "2f80ed",
-            iconColor: "4c71f2",
+            iconColor: "586069",
             textColor: "434d58",
             bgColor: "00000000",
             borderColor: "e4e2e2",
         },
         dark: {
             titleColor: "58a6ff",
-            iconColor: "0579C3",
+            iconColor: "586069",
             textColor: "adbac7",
             bgColor: "00000000",
             borderColor: "444c56",
