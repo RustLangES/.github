@@ -51,8 +51,8 @@ Si amas la programación y quieres potenciar tus habilidades en Rust, ¡te damos
 <a href="https://github.com/RustLangES/cangrebot#gh-dark-mode-only"><img src="https://raw.githubusercontent.com/RustLangES/.github/main/assets/RustLangES-cangrebot-dark.svg#gh-dark-mode-only" alt="cangrebot: Bot de la comunidad de Discord de RustLangES"></a>
 <a href="https://github.com/RustLangES/cangrebot#gh-light-mode-only"><img src="https://raw.githubusercontent.com/RustLangES/.github/main/assets/RustLangES-cangrebot-light.svg#gh-light-mode-only" alt="cangrebot: Bot de la comunidad de Discord de RustLangES"></a>
 &nbsp;
-<a href="https://github.com/RustLangES/mdbook-killer#gh-dark-mode-only"><img src="https://raw.githubusercontent.com/RustLangES/.github/main/assets/RustLangES-mdbook-killer-dark.svg#gh-dark-mode-only" alt="mdbook-killer: Nuestra propia implementacion de mdbook para publicar libros"></a>
-<a href="https://github.com/RustLangES/mdbook-killer#gh-light-mode-only"><img src="https://raw.githubusercontent.com/RustLangES/.github/main/assets/RustLangES-mdbook-killer-light.svg#gh-light-mode-only" alt="mdbook-killer: Nuestra propia implementacion de mdbook para publicar libros"></a>
+<a href="https://github.com/RustLangES/mdbook-killer#gh-dark-mode-only"><img src="https://raw.githubusercontent.com/RustLangES/.github/main/assets/RustLangES-mdbook-killer-dark.svg#gh-dark-mode-only" alt="mdbook-killer: Implementacion propia de mdbook para publicar libros"></a>
+<a href="https://github.com/RustLangES/mdbook-killer#gh-light-mode-only"><img src="https://raw.githubusercontent.com/RustLangES/.github/main/assets/RustLangES-mdbook-killer-light.svg#gh-light-mode-only" alt="mdbook-killer: Implementacion propia de mdbook para publicar libros"></a>
 &nbsp;
 </div><div float="left">
 <a href="https://github.com/RustLangES/proyectos-comunitarios#gh-dark-mode-only"><img src="https://raw.githubusercontent.com/RustLangES/.github/main/assets/RustLangES-proyectos-comunitarios-dark.svg#gh-dark-mode-only" alt="proyectos-comunitarios: Proyectos de la comunidad de Rust"></a>
