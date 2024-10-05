@@ -12,6 +12,7 @@ Si amas la programación y quieres potenciar tus habilidades en Rust, ¡te damos
 <div align="center">
 
 [![Discord](https://img.shields.io/discord/778674594856960012?style=for-the-badge&logo=discord&color=blue)](https://discord.gg/4ng5HgmaMg)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logoColor=white&logo=Telegram)](https://t.me/rust_es)
 [![Static Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/company/rustlanges)
 
 </div>
